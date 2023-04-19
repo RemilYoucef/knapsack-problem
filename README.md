@@ -35,5 +35,5 @@ for i from 1 to n do:
 
 # A Software tool for interactive use built with Java and JavaFX in French
 
-<img align="right" alt="" src="./tool1.png" />
-<img align="left"  alt="" src="./tool2.png" />
+<img  alt="" src="./tool.png" style="width: 100%;" />
+
