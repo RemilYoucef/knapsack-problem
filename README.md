@@ -33,7 +33,7 @@ for i from 1 to n do:
             m[i, j] := max(m[i-1, j], m[i-1, j-w[i]] + v[i])
 ```
 
-# A Software tool for interactive use built with Java and JavaFX
+# A Software tool for interactive use built with Java and JavaFX in French
 
 <img align="right" alt="" src="./tool1.png" />
 <img align="left"  alt="" src="./tool2.png" />
