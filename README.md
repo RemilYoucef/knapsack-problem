@@ -6,7 +6,7 @@ The knapsack problem is a classic optimization problem in computer science and m
 More formally, given a set of n items, each with a weight w_i and a value v_i, and a knapsack with a maximum capacity of W, the problem is to find a subset of the items such that the total value of the selected items is maximized subject to the constraint that the total weight of the selected items does not exceed W. In the 0-1 variant of the problem, each item can be either included or excluded from the subset, whereas in the unbounded variant, each item can be included any number of times.
 
 
-# Proposed Solution
+# Proposed Algorithm using Dynamic Programming 
 This problem can be formulated in different ways, but one common approach is to use dynamic programming, here is the proposed algorithm used in this repository
 
 ```
@@ -31,5 +31,9 @@ for i from 1 to n do:
             m[i, j] := m[i-1, j]
         else:
             m[i, j] := max(m[i-1, j], m[i-1, j-w[i]] + v[i])
-
 ```
+
+# A Software tool for interactive use built with Java and JavaFX
+
+<img align="right" alt="" src="./tool1.png" />
+<img align="left"  alt="" src="./tool2.png" />
